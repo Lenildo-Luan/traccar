@@ -28,9 +28,9 @@ servers:
         default: localhost
       port:
         enum:
-          - '8082'
+          - '8080'
           - '80'
-        default: '8082'
+        default: '8080'
 security:
   - BasicAuth: []
   - ApiKey: []
